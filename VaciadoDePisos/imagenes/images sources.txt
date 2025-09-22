@@ -1,0 +1,16 @@
+<!-- Ejemplo de cómo quedaría con tus imágenes reales -->
+<div class="gallery-item" data-gallery="Vaciado de pisos en Barcelona">
+    <img src="imagenes/miniaturas/vaciado-antes.webp" alt="Vaciado de piso en Barcelona - Antes">
+    <div class="gallery-overlay">
+        <h3>Vaciado de pisos en Barcelona</h3>
+        <p>Piso de 90m² en Eixample - Antes</p>
+    </div>
+</div>
+
+<div class="gallery-item" data-gallery="Vaciado de pisos en Barcelona">
+    <img src="imagenes/miniaturas/vaciado-despues.webp" alt="Vaciado de piso en Barcelona - Después">
+    <div class="gallery-overlay">
+        <h3>Vaciado de pisos en Barcelona</h3>
+        <p>Piso de 90m² en Eixample - Después</p>
+    </div>
+</div>
