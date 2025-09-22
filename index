@@ -6,6 +6,48 @@
     <title>Vaciado de Pisos Barcelona | Rápido, Profesional y con el Mejor Precio | VaciadoDePisos.cat</title>
     <meta name="description" content="Servicio profesional de vaciado de pisos en Barcelona. Vaciamos su vivienda en 24-48h con trato respetuoso y gestión integral. Valoración gratuita y sin compromiso.">
     <meta name="keywords" content="vaciado de pisos Barcelona, vaciar piso, vaciado por defunción, liquidar herencia, vaciar piso mudanza, comprar muebles usados Barcelona">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "VaciadoDePisos.cat",
+  "description": "Servicio profesional de vaciado de pisos en toda Catalunya. Vaciamos su vivienda en 24-48h con trato respetuoso.",
+  "telephone": "+34688304143",
+  "email": "vaciarpisos1978@gmail.com",
+  "areaServed": [
+    "Barcelona", "Girona", "Lleida", "Tarragona",
+    "Sant Pere de Ribes", "Hospitalet", "Badalona", "Sabadell", "Terrassa", "Mataró",
+    "L'Hospitalet", "Santa Coloma", "Reus", "Salou", "Cambrils", "Vilaseca", "El Vendrell",
+    "Figueres", "Olot", "Banyoles", "Blanes", "Lloret de Mar", "Tossa de Mar",
+    "Manresa", "Igualada", "Vic", "Berga", "Solsona",
+    "Tortosa", "Amposta", "Montblanc", "Valls", "Falset"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Barcelona",
+    "addressRegion": "Cataluña",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.5912,
+      "longitude": 1.5209
+    },
+    "geoRadius": 200000
+  },
+  "openingHours": "Mo-Fr 08:00-20:00, Sa 09:00-14:00",
+  "serviceType": ["Vaciado de pisos", "Limpieza síndrome de Diógenes", "Vaciado por defunción", "Gestión de herencias"],
+  "url": "https://vaciadodepisos.cat/",
+  "makesOffer": {
+    "@type": "Offer",
+    "areaServed": "Cataluña"
+  }
+}
+</script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
@@ -47,8 +89,7 @@
             padding: 0 15px;
         }
         
-        /* Header & Navigation - MEJORADO */
-        header {
+               header {
             background-color: var(--white);
             position: fixed;
             width: 100%;
@@ -130,8 +171,7 @@
             align-items: center;
         }
         
-        /* Añadido: Estilos para redes sociales en el header */
-        .header-social {
+                .header-social {
             display: flex;
             align-items: center;
             margin-right: 15px;
@@ -2351,7 +2391,7 @@
                     <form id="valuationForm" action="https://formsubmit.co/vaciarpisos1978@gmail.com" method="POST">
     <input type="hidden" name="_captcha" value="true">
     <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://vaciadodepisos.cat/gracias.html">
+    <input type="hidden" name="_next" value="https://www.vaciadodepisos.cat/gracias.html">
     <input type="hidden" name="_subject" value="Nueva solicitud de VaciadoDePisos.cat">
                         
                         <div class="form-row">
