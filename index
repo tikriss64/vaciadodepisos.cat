@@ -14,7 +14,7 @@
   "name": "VaciadoDePisos.cat",
   "description": "Servicio profesional de vaciado de pisos en toda Catalunya. Vaciamos su vivienda en 24-48h con trato respetuoso.",
   "telephone": "+34688304143",
-  "email": "vaciarpisos1978@gmail.com",
+  "email": "vaciadodepisos@protonmail.com",
   "areaServed": [
     "Barcelona", "Girona", "Lleida", "Tarragona",
     "Sant Pere de Ribes", "Hospitalet", "Badalona", "Sabadell", "Terrassa", "Mataró",
@@ -2367,7 +2367,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <a href="mailto:Vaciarpisos1978@gmail.com" class="email-link">Envíenos un email</a>
+                            <a href="mailto:vaciadodepisos@protonmail.com" class="email-link">Envíenos un email</a>
                         </div>
                     </div>
                     <div class="contact-detail">
@@ -2388,7 +2388,7 @@
                 </div>
                 <div class="contact-form">
                     <h3>Solicite una valoración gratuita</h3>
-                    <form id="valuationForm" action="https://formsubmit.co/vaciarpisos1978@gmail.com" method="POST">
+                    <form id="valuationForm" action="https://formsubmit.co/vaciadodepisos@protonmail.com" method="POST">
     <input type="hidden" name="_captcha" value="true">
     <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_next" value="https://www.vaciadodepisos.cat/gracias.html">
@@ -2491,7 +2491,7 @@
                 <div class="footer-column">
                     <h3>Contacto</h3>
                     <p><i class="fas fa-phone"></i> 688 30 41 43</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:Vaciarpisos1978@gmail.com" class="email-link">Envíenos un email</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:vaciadodepisos@protonmail.com" class="email-link">Envíenos un email</a></p>
                     <p><i class="fas fa-map-marker-alt"></i> Barcelona, España</p>
                     <p><i class="fas fa-clock"></i> Lunes a Viernes: 8h a 20h</p>
                 </div>
