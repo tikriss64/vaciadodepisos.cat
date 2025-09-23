@@ -1768,18 +1768,20 @@
             }
             
             .whatsapp-elegante {
-                font-size: 0;
-                padding: 12px;
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                justify-content: center;
-            }
-            
-            .whatsapp-elegante i {
-                font-size: 24px;
-                margin: 0;
-            }
+    font-size: 14px;
+    padding: 10px 15px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.whatsapp-elegante i {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 5px;
+}
 
             .modal-prev, .modal-next {
                 font-size: 24px;
