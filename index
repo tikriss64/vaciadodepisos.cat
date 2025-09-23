@@ -2503,8 +2503,66 @@
             </div>
         </div>
     </footer>
+<div id="cookie-banner" style="display: none; position: fixed; bottom: 100px; left: 20px; right: 20px; background: linear-gradient(135deg, #2B638D, #E8A933); color: white; padding: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); z-index: 9998; max-width: 400px; font-family: 'Montserrat', sans-serif;">
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <div style="font-size: 2rem;">🍪</div>
+            <div style="flex: 1;">
+                <h4 style="margin: 0 0 8px 0; color: white;">¡Este sitio usa cookies!</h4>
+                <p style="margin: 0; font-size: 0.9rem; opacity: 0.9;">No son de chocolate, pero nos ayudan a mejorar tu experiencia. ¿Aceptas?</p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 10px; margin-top: 15px;">
+            <button id="accept-cookies" style="background: white; color: #2B638D; border: none; padding: 10px 20px; border-radius: 25px; font-weight: 600; cursor: pointer; flex: 1; transition: all 0.3s;">¡Claro que sí!</button>
+            <button id="reject-cookies" style="background: transparent; color: white; border: 2px solid white; padding: 10px 20px; border-radius: 25px; font-weight: 600; cursor: pointer; flex: 1; transition: all 0.3s;">Solo las necesarias</button>
+        </div>
+    </div>
 
-    <!-- Botón flotante de WhatsApp MEJORADO -->
+    <script>
+    // Cookie Banner Script
+    document.addEventListener('DOMContentLoaded', function() {
+        const banner = document.getElementById('cookie-banner');
+        const acceptBtn = document.getElementById('accept-cookies');
+        const rejectBtn = document.getElementById('reject-cookies');
+        
+        // Solo mostrar si no hay decisión previa
+        if (!localStorage.getItem('cookies-accepted') && !localStorage.getItem('cookies-rejected')) {
+            setTimeout(() => {
+                banner.style.display = 'block';
+                // Efecto de aparición suave
+                banner.style.opacity = '0';
+                banner.style.transform = 'translateY(20px)';
+                banner.style.transition = 'all 0.5s ease';
+                
+                setTimeout(() => {
+                    banner.style.opacity = '1';
+                    banner.style.transform = 'translateY(0)';
+                }, 100);
+            }, 2000); // Espera 2 segundos para no molestar
+        }
+        
+        // Aceptar cookies
+        acceptBtn.addEventListener('click', function() {
+            localStorage.setItem('cookies-accepted', 'true');
+            closeBanner();
+        });
+        
+        // Rechazar cookies
+        rejectBtn.addEventListener('click', function() {
+            localStorage.setItem('cookies-rejected', 'true');
+            closeBanner();
+        });
+        
+        function closeBanner() {
+            banner.style.opacity = '0';
+            banner.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                banner.style.display = 'none';
+            }, 500);
+        }
+    });
+    </script>
+
+     
     <a href="https://wa.me/34688304143" class="whatsapp-elegante" target="_blank" aria-label="Contactar por WhatsApp">
         <i class="fab fa-whatsapp"></i> ¿Necesita ayuda?
         <span class="whatsapp-tooltip">Chatee con nosotros</span>
